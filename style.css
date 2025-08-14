@@ -1,0 +1,190 @@
+body {
+    font-family: 'Vazirmatn', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    line-height: 1.6;
+    direction: rtl;
+  }
+  
+  /* کانتینر */
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    text-align: right;
+  }
+  
+  /* هدر */
+  header {
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+  }
+  
+  header h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+  }
+  
+  header p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+  }
+  
+  header .btn {
+    display: inline-block;
+    background-color: #fff;
+    color: #2575fc;
+    padding: 15px 30px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+  
+  header .btn:hover {
+    background-color: #2575fc;
+    color: #fff;
+    transform: scale(1.05);
+  }
+  
+  /* بخش درباره من */
+  #about {
+    padding: 80px 20px;
+  }
+  
+  #about h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  /* مهارت‌ها */
+  #skills {
+    padding: 80px 20px;
+  }
+  
+  #skills h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+  }
+  
+  .skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 20px;
+    justify-items: center;
+  }
+  
+  .skill-card {
+    background-color: #f7f7f7;
+    padding: 20px;
+    border-radius: 15px;
+    width: 120px;
+    text-align: center;
+    font-weight: bold;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .skill-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+  }
+  
+  /* نمونه‌کارها */
+  #projects {
+    padding: 80px 20px;
+  }
+  
+  #projects h2 {
+    font-size: 2.5rem;
+    margin-bottom: 50px;
+  }
+  
+  .projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+  }
+  
+  .project-card {
+    background-color: #f7f7f7;
+    padding: 30px 20px;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .project-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 30px rgba(0,0,0,0.2);
+  }
+  
+  .project-card a {
+    display: inline-block;
+    margin-top: 15px;
+    color: #2575fc;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .project-card a:hover {
+    text-decoration: underline;
+  }
+  
+  /* فرم تماس */
+  #contact {
+    background-color: #2575fc;
+    color: white;
+    padding: 80px 20px;
+  }
+  
+  #contact h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+  }
+  
+  #contact form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 500px;
+    margin: auto;
+  }
+  
+  #contact input,
+  #contact textarea {
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    font-size: 1rem;
+    direction: rtl;
+  }
+  
+  #contact button {
+    padding: 15px;
+    border: none;
+    border-radius: 50px;
+    background-color: #fff;
+    color: #2575fc;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  #contact button:hover {
+    background-color: #6a11cb;
+    color: #fff;
+    transform: scale(1.05);
+  }
+  
+  /* فوتر */
+  footer {
+    text-align: center;
+    padding: 30px 20px;
+    background-color: #222;
+    color: white;
+  }
+  

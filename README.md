@@ -9,7 +9,7 @@
 - افکت‌های ساده برای جذابیت بصری
 
 ## پیش‌نمایش
-[دموی آنلاین](https://yourusername.github.io/landing-page/)
+[دموی آنلاین](https://alishqomi.github.io/Landing-page/)
 
 ## تکنولوژی‌ها
 - HTML5
